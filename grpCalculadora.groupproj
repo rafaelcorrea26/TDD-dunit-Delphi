@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{70041EAA-880B-48ED-8A4E-C6EF86748526}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CalculadoraTDD.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test\CalculadoraTDDTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CalculadoraTDD">
+        <MSBuild Projects="CalculadoraTDD.dproj"/>
+    </Target>
+    <Target Name="CalculadoraTDD:Clean">
+        <MSBuild Projects="CalculadoraTDD.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalculadoraTDD:Make">
+        <MSBuild Projects="CalculadoraTDD.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CalculadoraTDDTests">
+        <MSBuild Projects="Test\CalculadoraTDDTests.dproj"/>
+    </Target>
+    <Target Name="CalculadoraTDDTests:Clean">
+        <MSBuild Projects="Test\CalculadoraTDDTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalculadoraTDDTests:Make">
+        <MSBuild Projects="Test\CalculadoraTDDTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CalculadoraTDD;CalculadoraTDDTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CalculadoraTDD:Clean;CalculadoraTDDTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CalculadoraTDD:Make;CalculadoraTDDTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

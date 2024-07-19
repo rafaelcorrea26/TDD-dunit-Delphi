@@ -1,0 +1,1 @@
+Projeto inicial de estudos para testes automatizado, para rodar apenas executar. Para executar erros apenas precisa alterar as funções para forjar o erro.

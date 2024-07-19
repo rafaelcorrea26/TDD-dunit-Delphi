@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/07/17 20:58:14.000.489,=C:\Users\Rafael\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/17 21:40:48.000.872,C:\Users\Rafael\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Rafael\Documents\TDD-dunit-Delphi\Calculadora.pas</Transaction>
+    <Transaction>2024/07/17 21:40:48.000.872,C:\Users\Rafael\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Rafael\Documents\TDD-dunit-Delphi\Calculadora.dfm</Transaction>
+    <Transaction>2024/07/17 21:41:33.000.758,C:\Users\Rafael\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Rafael\Documents\Embarcadero\Studio\Projects\CalculadoraTDD.dproj</Transaction>
+    <Transaction>2024/07/17 21:41:59.000.841,C:\Users\Rafael\Documents\TDD-dunit-Delphi\Calculadora.dfm=C:\Users\Rafael\Documents\TDD-dunit-Delphi\fCalculadora.dfm</Transaction>
+    <Transaction>2024/07/17 21:41:59.000.841,C:\Users\Rafael\Documents\TDD-dunit-Delphi\Calculadora.pas=C:\Users\Rafael\Documents\TDD-dunit-Delphi\fCalculadora.pas</Transaction>
+    <Transaction>2024/07/17 21:42:09.000.248,C:\Users\Rafael\Documents\Embarcadero\Studio\Projects\CalculadoraTDD.dproj=C:\Users\Rafael\Documents\TDD-dunit-Delphi\CalculadoraTDD.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
